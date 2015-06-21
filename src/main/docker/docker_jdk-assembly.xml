@@ -1,0 +1,20 @@
+<assembly>
+  <baseDirectory>/</baseDirectory>
+  <id>linux-jdk-assembly</id>
+  <formats>
+    <format>dir</format>
+  </formats>
+
+  <dependencySets>
+    <dependencySet>
+        <unpack>true</unpack>
+        <scope>runtime</scope>
+        <outputDirectory>/opt/dochack</outputDirectory>
+        <includes>
+            <include>org.docker.hackathon:jdk:jar</include>
+        </includes>
+    </dependencySet>
+  </dependencySets>
+
+
+</assembly>
